@@ -195,3 +195,25 @@ body{
     margin-right: 20px;
 }
 
+/* focus section  */
+.focus{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color:rgb(214, 225, 242);
+    border-radius: 20px;
+}
+.focus-img{
+    width: 550px;
+    height: 150px;
+    border-radius: 20px;
+    margin:70px 70px;
+}
+.focus-title{
+    font-size: 60px;
+    margin-top: 30px;
+}

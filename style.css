@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* common style  */
+ .common-btn{
+    background-color: #2d26fc;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 25px;
+}
+body{
+    background-color: #becef4;
+}
+
+.common-btn:hover{
+    background-color: #07046e;
+    transition: .5s;
+} 
+/* navber  */
+.nav{
+    background-image:url(Assets/Hero-bg.png);
+}
+.navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+    padding-top: 20px;
+    color: #4E47FF;
+}
+.navber h1{
+    font-size: 50px;
+}
+
+
+/* banner style  */
+.banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 70px;
+}
+.banner h3{
+    font-size: 50px;
+    line-height: 1.5em;
+}
+
+.stay-btn{
+    margin: 50px 50px;
+}
+
+/* action section  */
+
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin: 100px 0px;
+    margin-bottom: 200px;
+
+    
+}
+
+.left-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    
+
+    
+}
+.preview-btn{
+    margin: 10px ;
+}
+.action-title{
+    margin-top: 10px 10px;
+    font-size: 25px;
+    font-size: 40px;
+}
+
+.action-subtitle{
+    font-size: 25px;
+}
+.right-slide{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+} 
+

@@ -217,3 +217,44 @@ body{
     font-size: 60px;
     margin-top: 30px;
 }
+
+/* Let’s Get in Touch section style */
+.signup-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:300px;
+    margin: 100px 100px;
+}
+.signup-left-slide{
+    font-size: 70px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+   
+}
+form label{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+form input{
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+}
+input[type="text"] {
+   padding: 10px;
+}
+input[type="email"] {
+   padding: 10px;
+}
+form textarea{
+    border: none;
+    border-radius: 10px;
+}
+.message-btn{
+    margin-top: 20px;
+}
